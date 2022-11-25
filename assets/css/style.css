@@ -1,0 +1,37 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ @font-face {
+  font-family: pixelFont;
+  src: url(../fonts/C&C\ Red\ Alert\ [INET].ttf);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: pixelFont, 'Arial';
+  
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#index-banner {
+  background: url(https://cdn.vox-cdn.com/uploads/chorus_asset/file/22809003/jude_buffum_210825_ecl1124_package_art.png) top right no-repeat;
+  height: 700px;
+}
+
+.card {
+  margin-right: 3px;
+}
